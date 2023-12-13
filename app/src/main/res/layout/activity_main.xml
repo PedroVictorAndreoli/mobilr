@@ -41,6 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:ems="10"
+        android:enabled="false"
         android:inputType="number"
         app:layout_constraintStart_toStartOf="@+id/etTelefone"
         app:layout_constraintTop_toBottomOf="@+id/etCod" />
@@ -62,6 +63,7 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="number"
+        android:enabled="false"
         app:layout_constraintStart_toEndOf="@+id/tvTelefone"
         app:layout_constraintTop_toBottomOf="@+id/etNome" />
 
